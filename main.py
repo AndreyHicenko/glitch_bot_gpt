@@ -6,7 +6,7 @@ TOKEN = '6016434617:AAECGvfRVqYJ2zgUOlkyf-wYRn6AxWz2HeE'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
-OPENAI_API = "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"
+OPENAI_API = "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"
 @dp.message_handler()
 async def send_message(message: types.Message):
     openai.api_key = OPENAI_API
